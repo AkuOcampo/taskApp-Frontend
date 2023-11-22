@@ -1,6 +1,6 @@
 import { Task as Tarea } from "../types/Task"
 
-const BASE_URL = 'http://localhost:3000'
+const BASE_URL = 'https://taskapp-4z6m.onrender.com'
 
 export const tareasService = {
     getTareas: async (): Promise<Tarea[]> => {
