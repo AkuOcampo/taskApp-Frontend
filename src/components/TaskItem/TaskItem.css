@@ -1,0 +1,24 @@
+.card-task{
+    border-radius: 10px;
+    box-shadow:  6px 6px 0px rgba(0, 0, 0, 1);
+}
+
+.img-tarea{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+span{
+    font-weight: 500;
+    font-size: 1rem;
+}
+.btn{
+    color:black;
+    border: 2px solid black;
+    box-shadow:  6px 6px 0px rgba(0,0,0, 1);
+}
+.btn:hover{
+    border: 2px solid black;
+    background-color: #FFF;
+    color: black;
+}

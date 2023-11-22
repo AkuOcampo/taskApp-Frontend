@@ -1,0 +1,44 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-image: url('../images/fondo2.jpg');
+}
+
+h2{
+  font-weight: 700; 
+  text-align: left; 
+}
+.navbar{
+  background-image: url('../images/NAV.png');
+  background-size: cover;
+}
+.logo-img{
+  width: 100px;
+}
+.nav-link{
+  text-decoration: none;
+  color: black;
+  transition: border 0.3s ease, transform 0.3s ease;
+
+}
+.nav-link:active, .nav-link:focus{
+  text-decoration: none;
+  color: black;
+  outline: none;
+}
+.nav-link:hover{
+  color: black;
+  transform: scale(1.2);
+
+}
+.ph{
+  background-color:#D7FF31;
+}
+.ep{
+  background-color:#FF84EF;
+}
+.pt{
+  background-color:#CC91FF;
+}
+.c{
+  background-color:#80FF71;
+}
